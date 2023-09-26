@@ -38,6 +38,7 @@ function App() {
       <Tv/>
       
       <Downloading/>
+      <br />
       <Watch/>
       <Children/>
       <section className='border-b-8 border-[#2d2d2d]  grid justify-center text-center ' >
