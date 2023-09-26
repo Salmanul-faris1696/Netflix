@@ -1,0 +1,57 @@
+body{
+    background-color: #000;
+    margin: 0;
+    display: block;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+header{
+    display: flex;
+}
+
+
+
+.bg--img{
+
+    position: relative;
+    z-index: -100;
+
+}
+
+.hero-section{
+    position: relative;
+    object-fit: cover;
+    background-image: url("assets/images/hero-back.jpg");
+}
+
+.hero-section::after{
+content: " ";
+position: absolute;
+height: 100%;
+width: 100%;
+background: rgb(14, 13, 13);
+opacity: .5;
+top: 0;
+z-index: 9;
+}
+
+input::placeholder{
+    color: aliceblue!important;
+    font-size: large;
+    font-weight: 500;
+}
+
+
+.str{
+    height: 90px;
+    width: 60px;
+    position: relative;
+    
+}
+
+.ReactCollapse--collapse {
+    transition: height 500ms;
+  }
+
+
+
