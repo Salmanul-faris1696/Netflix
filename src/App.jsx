@@ -44,7 +44,7 @@ function App() {
       <section className='border-b-8 border-[#2d2d2d]  grid justify-center text-center ' >
       <div className='Accordian--head text-white grid  justify-center   font-Netflix text-[2rem] font-[700] mb-8 mt-10'>
         <h>
-           Frequently Asked Questions
+           Frequently Asked Questions For You
         </h>
 
         </div>
